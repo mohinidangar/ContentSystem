@@ -5,7 +5,7 @@
 </head>
 <body>
 <div class="container">
-<p class="text">welcome to contents</p>
+<p class="text">Welcome to ContentVerse</p>
 <button id="register" type="button">Register</button>
 <button id="login" type="button">Log In</button>
 </div>
