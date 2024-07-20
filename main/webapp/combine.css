@@ -1,0 +1,58 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  background-color: #f0f8ff;
+}
+
+.container {
+  padding: 20px;
+  border: 2px solid #ddd;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s ease-in-out;
+  animation: breathe 2s ease-in-out infinite alternate;
+}
+
+@keyframes breathe {
+  from { transform: scale(1); }
+  to { transform: scale(1.02); }
+}
+
+.container:hover {
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  transform: scale(1.03);
+}
+
+#regiForm, label {
+  font-size: 16px;
+  color: #333;
+}
+
+#regiForm {
+  text-align: center;
+}
+
+#submit {
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-left:3.2em;
+}
+
+#submit:hover {
+  background-color: #3e8e41;
+  transform: scale(1.02);
+}
+
+.back-button {
+margin-left:3.5em;
+}

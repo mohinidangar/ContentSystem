@@ -5,8 +5,7 @@ body {
   align-items: center;
   font-family: monospace;
 }
-/************************************************************/
-/*Typewriter css animation for .text class.*/
+
 .container {
 display: inline-block;
 }
@@ -33,11 +32,12 @@ from {
 width: 0
 }
 }
-/************************************************************/
-/*register and login button formatting*/
-#register , #login{
+
+a#register , a#login{
+
   margin-left: 30%;
   background-color: #f0f0f0;
+
   border: none;
   font-family: monospace;
   padding: 10px 20px;
@@ -49,9 +49,8 @@ width: 0
   transition: background-color 0.2s ease-in-out;
   display: inline-block;
   margin-right: 20px;
+  color: #333;
 }
-
-#register:hover,#login:hover{
+a#register:hover,a#login:hover{
   background-color: green;
 }
-/************************************************************/
